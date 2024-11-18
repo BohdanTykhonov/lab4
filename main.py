@@ -28,5 +28,14 @@ capitalized_text = no_dot_text.capitalize()
 # 9. Лободюк Євгеній: Використовуємо функцію swapcase() для зміни регістру всіх літер на протилежний
 final_text = capitalized_text.swapcase()
 
+# 10. Срібна Ольга: Використовуємо функцію count() для підрахунку кількості входжень слова "ut"
+word_count = final_text.count("ut")
+
+# 11. Срібна Ольга: Використовуємо функцію find() для пошуку першої появи слова "ut"
+first_occurrence = final_text.find("ut")
+
+# 12. Срібна Ольга: Використовуємо функцію zfill() для додавання нулів на початку тексту (довжина до 300 символів)
+final_padded_text = final_text.zfill(300)
+
 # Виводимо кінцевий результат
-print(final_text)
+print(final_padded_text)
